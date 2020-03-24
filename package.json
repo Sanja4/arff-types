@@ -1,0 +1,22 @@
+{
+  "name": "arff-types",
+  "version": "0.0.1",
+  "description": "Types for the arff package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SophiaLi1/arff-types.git"
+  },
+  "keywords": [
+    "arff"
+  ],
+  "author": "SophiaLi1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SophiaLi1/arff-types/issues"
+  },
+  "homepage": "https://github.com/SophiaLi1/arff-types#readme"
+}
