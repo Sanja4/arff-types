@@ -6,11 +6,15 @@ import {ArffAttribute} from './arff-attribute.model';
 export class ArffDataset {
 
     /** The name of the relation (dataset).*/
-    relation: string;
+    relation: string = '';
 
     /** The list of attributes of the relation. */
     attributes: ArffAttribute[] = [];
 
     /** The data points (rows) itself. */
     data: any[] = [];
+
+    constructor(params?: ArffDataset) {
+        Object.assign(this, params);
+    }
 }
