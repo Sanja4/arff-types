@@ -1,12 +1,12 @@
 {
   "name": "arff-types",
-  "version": "0.0.7",
+  "version": "0.0.10",
   "description": "Types for the arff package",
   "scripts": {
     "build" : "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare" : "npm run build",
-    "publish": "npm publish"
+    "publish_to_npm": "npm publish"
   },
   "repository": {
     "type": "git",
